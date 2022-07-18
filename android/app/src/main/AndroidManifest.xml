@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.survey_tanahku">
    <application
-        android:label="survey_tanahku"
+        android:label="Survey Tanahku"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

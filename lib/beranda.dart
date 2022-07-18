@@ -9,9 +9,7 @@ class Beranda extends StatelessWidget {
       body: SafeArea(
         child: Stack(
           children: <Widget>[
-            Expanded(
-              child: Image.asset('assets/images/bg_batik.png')
-            ),
+            Image.asset('assets/images/bg_batik.png'),
             Padding(
               padding: const EdgeInsets.only(top: 30),
               child: Column(
@@ -59,7 +57,7 @@ class Beranda extends StatelessWidget {
             Container(
               width: 350,
               height: 120,
-              margin: const EdgeInsets.only(top: 220, left: 20),
+              margin: const EdgeInsets.only(top: 300, left: 20),
               decoration: BoxDecoration(
                 color: Colors.white.withOpacity(0.8),
                 borderRadius: BorderRadius.circular(10),
